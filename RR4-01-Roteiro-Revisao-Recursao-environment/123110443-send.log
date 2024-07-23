@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-07-17T09:48:01.188-0300</date>
+  <logger>PEDRO HENRIQUE MALAQUIAS DA SILVA</logger>
+  <level>FINE</level>
+  <message>File 123110443-PEDRO HENRIQUE MALAQUIAS DA SILVA.zip was received. It was sent by PEDRO HENRIQUE MALAQUIAS DA SILVA from IP 150.165.74.129 at 17-07-2024 09*48*01</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-07-23T19:45:26.829-0300</date>
+  <logger>PEDRO HENRIQUE MALAQUIAS DA SILVA</logger>
+  <level>FINE</level>
+  <message>File 123110443-PEDRO HENRIQUE MALAQUIAS DA SILVA.zip was received. It was sent by PEDRO HENRIQUE MALAQUIAS DA SILVA from IP 26.216.168.241 at 23-07-2024 19*45*26</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-07-23T19:45:36.145-0300</date>
+  <logger>PEDRO HENRIQUE MALAQUIAS DA SILVA</logger>
+  <level>FINE</level>
+  <message>File 123110443-PEDRO HENRIQUE MALAQUIAS DA SILVA.zip was received. It was sent by PEDRO HENRIQUE MALAQUIAS DA SILVA from IP 26.216.168.241 at 23-07-2024 19*45*36</message>
+</record>

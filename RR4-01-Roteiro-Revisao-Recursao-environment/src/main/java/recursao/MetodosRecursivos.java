@@ -65,10 +65,22 @@ public class MetodosRecursivos {
 		// TODO IMPLEMENTE AQUI O CODIGO QUE CONTA (USANDO RECURSAO) A
 		// QUANTIDADE DE ELEMENTOS NAO NULOS
 		// DE UM ARRAY DE OBJETOS RECEBIDO COMO PARAMETRO
-
-		
+		if (fim == 0)
+		{
+			if (array[fim] != null)
+				return 1;
+			return 0;
+		}
+		else
+		{
+			if (array[fim] != null)
+				result += 1 + countNotNull(array, fim - 1);
+			else
+				result += countNotNull(array, fim-1);
+		}
 
 		return result;
+		
 	}
 
 	public long potenciaDe2(int expoente) {
@@ -76,6 +88,17 @@ public class MetodosRecursivos {
 		// TODO IMPLEMENTE (USANDO RECURSAO) O CODIGO PARA PRODUZIR A N-ESIMA
 		// POTENCIA
 		// DE 2
+
+		switch (expoente) {
+			case 0:
+				return 1;
+			case 1:
+				return 2;
+			default:
+				 result =  (int) (2 * potenciaDe2(expoente-1));
+				break;
+		}
+
 		return result;
 	}
 
@@ -85,6 +108,15 @@ public class MetodosRecursivos {
 		// TERMO
 		// DA PROGRESSAO ARITMETICA, DADO O TERMO INICIAL E A RAZAO
 		// VOCE NAO PODE USAR A FORMULA QUE CALCULA O N-ESIMO TERMO. DEVE USAR RECURSAO
+		if (n == 1)
+		{
+			return termoInicial;
+		}
+		else
+		{
+			result = razao + progressaoAritmetica(termoInicial, razao, n-1);
+		}
+
 		return result;
 	}
 
@@ -94,6 +126,15 @@ public class MetodosRecursivos {
 		// TERMO
 		// DA PROGRESSAO GEOMETRICA, DADO O TERMO INICIAL E A RAZAO
 		// VOCE NAO PODE USAR A FORMULA QUE CALCULA O N-ESIMO TERMO. DEVE USAR RECURSAO
+		
+		if (n == 1)
+		{
+			return termoInicial;
+		}
+		else
+		{
+			result = razao * progressaoGeometrica(termoInicial, razao, n - 1);
+		}
 		return result;
 	}
 	
